@@ -96,8 +96,13 @@ p{
             padding: 30px;
             border-radius: 15px;
             width: 320px;
+            height: 400px;
             box-shadow: 0 4px 15px #0002;
-        }
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+}
+        
 
         h2 {
             text-align: center;
